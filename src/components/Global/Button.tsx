@@ -5,7 +5,7 @@ import styles from "./Button.module.scss";
 interface PropTypes {
   text: string;
 
-  // eslint-disable-next-line no-unused-vars
+  // eslint-disable-next-line
   customStyles?: any;
 }
 

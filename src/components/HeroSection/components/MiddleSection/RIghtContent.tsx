@@ -59,7 +59,7 @@ const RightContent: FC = () => {
     slidesToShow: 1,
     speed: 500,
 
-    // eslint-disable-next-line no-unused-vars
+    // eslint-disable-next-line
     afterChange: (current: any) => setActiveSlide(current),
   };
 

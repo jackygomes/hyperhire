@@ -1,0 +1,24 @@
+.left {
+  .heading {
+    width: 187px;
+
+    img {
+      width: 100%;
+    }
+  }
+  .slogan {
+    color: #343741;
+    font-size: 14px;
+    width: 247px;
+  }
+  .contactInfo {
+    p {
+      color: #5e626f;
+      font-size: 13px;
+
+      &:first-child {
+        margin-bottom: 12px;
+      }
+    }
+  }
+}

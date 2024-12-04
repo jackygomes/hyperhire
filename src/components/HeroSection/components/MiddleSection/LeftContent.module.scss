@@ -1,0 +1,25 @@
+.wrapper {
+  color: #fff;
+  .top {
+    .heading,
+    .subHeadingWrap {
+      animation-duration: 500ms;
+    }
+    .heading {
+      font-size: 48px;
+    }
+    .subHeading {
+      font-size: 24px;
+    }
+    .question {
+      font-size: 18px;
+    }
+  }
+
+  .middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+  }
+}

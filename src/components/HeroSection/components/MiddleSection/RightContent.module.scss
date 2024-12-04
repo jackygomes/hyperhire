@@ -1,0 +1,10 @@
+.sliderWrapper {
+  padding-left: 130px;
+  // width: 640px;
+
+  :global {
+    .slick-list {
+      padding-bottom: 36px !important;
+    }
+  }
+}

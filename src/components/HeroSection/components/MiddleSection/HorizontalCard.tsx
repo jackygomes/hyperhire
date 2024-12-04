@@ -25,6 +25,7 @@ const HorizontalCard: FC<PropTypes> = (props: PropTypes) => {
     >
       <div className={styles.avater}>
         <img src={avater} alt="" />
+        <img className={styles.flag} src={flag} alt="" />
       </div>
       <div className={styles.title}>
         <h3>{name}</h3>

@@ -11,7 +11,6 @@ import styles from "./RightContent.module.scss";
 
 const RightContent: FC = () => {
   const [activeSlide, setActiveSlide] = useState(0);
-  const [oldIndex, setOldIndex] = useState(0);
 
   const sliderItem = [
     {

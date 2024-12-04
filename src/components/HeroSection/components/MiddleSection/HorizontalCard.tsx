@@ -4,6 +4,7 @@ import classNames from "classnames";
 import styles from "./HorizontalCard.module.scss";
 
 interface PropTypes {
+  // eslint-disable-next-line no-unused-vars
   active: any;
   item: {
     name: string;
